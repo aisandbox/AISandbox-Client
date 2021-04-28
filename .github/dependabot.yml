@@ -1,0 +1,182 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.openjfx:javafx-base
+    versions:
+    - ">= 12.a, < 13"
+  - dependency-name: org.openjfx:javafx-base
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-base
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-base:linux
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-base:linux
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-base:mac
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-base:mac
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-base:mac
+    versions:
+    - ">= 15.a, < 16"
+  - dependency-name: org.openjfx:javafx-base:win
+    versions:
+    - ">= 15.a, < 16"
+  - dependency-name: org.openjfx:javafx-controls
+    versions:
+    - ">= 12.a, < 13"
+  - dependency-name: org.openjfx:javafx-controls
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-controls
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-controls:linux
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-controls:linux
+    versions:
+    - ">= 15.a, < 16"
+  - dependency-name: org.openjfx:javafx-controls:mac
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-controls:mac
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-controls:win
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-controls:win
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-fxml
+    versions:
+    - ">= 12.a, < 13"
+  - dependency-name: org.openjfx:javafx-fxml
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-fxml
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-fxml:win
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-fxml:win
+    versions:
+    - ">= 15.a, < 16"
+  - dependency-name: org.openjfx:javafx-graphics
+    versions:
+    - ">= 12.a, < 13"
+  - dependency-name: org.openjfx:javafx-graphics
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-graphics
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-graphics:linux
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-graphics:linux
+    versions:
+    - ">= 15.a, < 16"
+  - dependency-name: org.openjfx:javafx-graphics:mac
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-graphics:win
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-graphics:win
+    versions:
+    - ">= 15.a, < 16"
+  - dependency-name: org.openjfx:javafx-media
+    versions:
+    - ">= 12.a, < 13"
+  - dependency-name: org.openjfx:javafx-media
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-media
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-media:linux
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-media:mac
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-media:win
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-media:win
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-swing
+    versions:
+    - ">= 12.a, < 13"
+  - dependency-name: org.openjfx:javafx-swing
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-swing
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-swing:linux
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-swing:linux
+    versions:
+    - ">= 15.a, < 16"
+  - dependency-name: org.openjfx:javafx-swing:mac
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-swing:win
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-web
+    versions:
+    - ">= 12.a, < 13"
+  - dependency-name: org.openjfx:javafx-web
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-web
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-web:linux
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-web:mac
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-web:win
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: org.openjfx:javafx-web:win
+    versions:
+    - ">= 14.a, < 15"
+  - dependency-name: org.openjfx:javafx-web:win
+    versions:
+    - ">= 15.a, < 16"
+  - dependency-name: com.puppycrawl.tools:checkstyle
+    versions:
+    - "8.41"
+    - 8.41.1
+  - dependency-name: org.springframework.boot:spring-boot-starter-parent
+    versions:
+    - 2.4.2
+    - 2.4.3
+    - 2.4.4
+  - dependency-name: org.hibernate.validator:hibernate-validator
+    versions:
+    - 7.0.0.Final
+  - dependency-name: org.controlsfx:controlsfx
+    versions:
+    - 11.0.3
